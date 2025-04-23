@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./flask_auth_",
+        "./flask_auth_app"
+    ]
+}

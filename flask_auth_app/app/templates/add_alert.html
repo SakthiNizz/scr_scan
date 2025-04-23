@@ -1,0 +1,21 @@
+<h3>Add Alert</h3>
+<br><br>
+<a href="{{ url_for('main.dashboard') }}" class="btn btn-secondary">⬅️ Back to Dashboard</a>
+<br><br>
+<form method="POST">
+    {{ form.hidden_tag() }}
+
+    {{ form.customer.label }}<br>
+    {{ form.customer() }}<br><br>
+
+    {{ form.vuln_name.label }}<br>
+    {{ form.vuln_name() }}<br><br>
+
+    {{ form.link.label }}<br>
+    {{ form.link() }}<br><br>
+
+    {{ form.description.label }}<br>
+    {{ form.description() }}<br><br>
+
+    {{ form.submit() }}
+</form>
